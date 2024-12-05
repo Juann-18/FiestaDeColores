@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+.texto{
+    font-family: 'Pacifico', cursive; 
+    font-size: 50px;
+}
+#colorMas{
+    font-family: 'Pacifico', cursive; 
+    font-size: 30px;
+}
+
+.circulos-container {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    margin-bottom: 20px; 
+}
+
+
+
+.circulo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
